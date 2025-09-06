@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / Front (si aparece)
+node_modules/
+dist/
+
+# PHP / Composer (si lo usás luego)
+vendor/
+composer.lock
+
+# Docker
+lor-dbdata/
+*.env
+.env
+.env.local
+docker/*.log
+
+# VS Code
+.vscode/
+.devcontainer/.cache
+
